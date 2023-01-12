@@ -1,0 +1,219 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-color: #EFEFF0;
+}
+
+@keyframes slideInFromTop {
+    0% {
+        transform: translateY(-600%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.infowa {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 300px;
+    height: 65px;
+    padding: 5px;
+    background-color: rgb(134, 156, 255);
+    z-index: 10;
+    animation: 1s ease-out 0s 1 slideInFromTop;
+}
+
+    .infowa img {
+        top: 0;
+        width: 55px;
+        height: 55px;
+    }
+
+    .infowa a {
+        font-family: 'Manrope', sans-serif;
+        font-size: 18px;
+        font-weight: normal;
+        color: white;
+        text-decoration: none;
+    }
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+}
+
+.toolbar {
+    display: grid;
+    grid-template-columns: 1% 99% 1%;
+    gap: 0px;
+    height: 100px;
+    padding: 0;
+    margin: 0;
+    background-color: #F9F9FC;
+}
+
+    .toolbar .tool1 {
+        width: 100%;
+        height: 100px;
+    }
+
+    .toolbar .tool2 {
+        width: 100%;
+        height: 100px;
+    }
+
+        .toolbar .tool2 .nav-menu {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100px;
+            position: relative;
+        }
+
+            .toolbar .tool2 .nav-menu .nav-list {
+                right: 20px;
+                position: absolute;
+                list-style-type: none;
+            }
+
+                .toolbar .tool2 .nav-menu .nav-list .list-item {
+                    display: inline-block;
+                    font-family: 'Manrope', sans-serif;
+                    font-size: 16px;
+                    font-weight: normal;
+                    color: black;
+                    padding-left: 24px;
+                    padding-right: 24px;
+                    color: #454545;
+                }
+
+            .toolbar .tool2 .nav-menu a {
+                text-decoration: none;
+                color: black;
+            }
+
+            .toolbar .tool2 .nav-menu .image-logo {
+                top: 5px;
+                left: 0;
+                position: absolute
+            }
+
+                .toolbar .tool2 .nav-menu .image-logo img {
+                    width: 203px;
+                    height: 90px;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                }
+
+            .toolbar .tool2 .nav-menu .menu {
+                right: 0;
+                position: absolute;
+                display: none;
+            }
+
+                .toolbar .tool2 .nav-menu .menu .menu-line{
+                    width: 20px;
+                    height: 3px;
+                    background-color: black;
+                    margin-bottom: 3px;
+                }
+
+    .toolbar .tool3 {
+        width: 100%;
+        height: 100px;
+    }
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.cabecera {
+    display: grid;
+    grid-template-columns: 0.5% 99% 0.5%;
+    gap: 0px;
+    height: 530px;
+    padding: 0;
+    margin: 0;
+}
+
+    .cabecera .cab1 {
+        width: 100%;
+        height: 530px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .cabecera .cab2 {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 0px;
+        background-color: rgba(159, 226, 214, 0.2); 
+        width: 100%;
+        height: 530px;
+    }
+
+        .cabecera .cab2 .cab21 {
+            width: 100%;
+            height: 530px;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+            .cabecera .cab2 .cab21 .cab211 {
+                width: 75%;
+                height: 60%;
+            }
+
+                .cabecera .cab2 .cab21 .cab211 h1 {
+                    font-family: 'DM Serif Display', serif;
+                    font-size: 34px;
+                    color: #454545;
+                }
+
+                .cabecera .cab2 .cab21 .cab211 p {
+                    font-family: 'Manrope', sans-serif;
+                    font-size: 21px;
+                    color: #7B7D7D;
+                }
+
+        .cabecera .cab2 .cab22 {
+            width: 100%;
+            height: 530px;
+            padding: 0;
+            margin: 0;
+        }
+
+            .cabecera .cab2 .cab22 img {
+                width: 100%;
+                height: 530px;
+                object-fit: contain;
+                animation: 1s ease-out 0s 1 slideInFromLeft;
+            }
+
+    .cabecera .cab3 {
+        width: 100%;
+        height: 530px;
+        padding: 0;
+        margin: 0;
+    }
+
+.divisor {
+    width: 100%;
+    height: 35px;
+}

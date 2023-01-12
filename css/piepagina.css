@@ -1,0 +1,64 @@
+﻿.pie-pagina {
+    display: grid;
+    grid-template-columns: 16% 68% 16%;
+    gap: 0px;
+    height: 100px;
+    padding: 0;
+    margin: 0;
+}
+
+    .pie-pagina .pie1 {
+        width: 100%;
+        height: 100px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .pie-pagina .pie2 {
+        width: 100%;
+        height: 100px;
+        padding: 0;
+        margin: 0;
+        border-top: 2px solid #869CFF;
+    }
+
+        .pie-pagina .pie2 .nav-pie {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100px;
+            position: relative;
+        }
+
+            .pie-pagina .pie2 .nav-pie .nav-pie-title {
+                left: 0;
+                position: absolute;
+                font-family: 'Manrope', sans-serif;
+                font-size: 13px;
+            }
+
+            .pie-pagina .pie2 .nav-pie .nav-pie-list {
+                right: 0;
+                position: absolute;
+                list-style-type: none;
+            }
+
+                .pie-pagina .pie2 .nav-pie .nav-pie-list img {
+                    height: 20px;
+                    width: 20px;
+                }
+
+                .pie-pagina .pie2 .nav-pie .nav-pie-list .nav-pie-list-item {
+                    display: inline-block;
+                }
+
+    .pie-pagina .pie3 {
+        width: 100%;
+        height: 100px;
+        padding: 0;
+        margin: 0;
+    }
+
+.seccion-pie-pagina {
+    background-color: #e6eaff;
+}

@@ -1,0 +1,5 @@
+﻿@media only screen and (max-width: 768px) {
+    .seccion4 {
+        grid-template-columns: 0.5% 99% 0.5%;
+    }
+}

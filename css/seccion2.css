@@ -1,0 +1,279 @@
+﻿.seccion2 {
+    display: grid;
+    grid-template-columns: 16% 68% 16%;
+    gap: 0px;
+    height: 800px;
+    padding: 0;
+    margin: 0;
+}
+
+    .seccion2 .sec21 {
+        width: 100%;
+        height: 800px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .seccion2 .sec22 {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        width: 100%;
+        height: 800px;
+        gap: 0px;
+    }
+
+        .seccion2 .sec22 .sec221 {
+            width: 100%;
+            height: 800px;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 16px;
+        }
+
+            .seccion2 .sec22 .sec221 .sec2211 {
+                width: 80%;
+                height: 25%;
+                padding: 0;
+                margin: 0;
+            }
+
+                .seccion2 .sec22 .sec221 .sec2211 > h2 {
+                    font-family: 'DM Serif Display', serif;
+                    font-size: 32px;
+                    color: #454545;
+                }
+
+                .seccion2 .sec22 .sec221 .sec2211 p {
+                    font-family: 'Manrope', sans-serif;
+                    font-size: 19px;
+                    color: #7B7D7D;
+                }
+
+            .seccion2 .sec22 .sec221 .sec2212 {
+                width: 80%;
+                height: 37%;
+                display: grid;
+                grid-template-rows: 50% 50%;
+                gap: 12px;
+            }
+
+                .seccion2 .sec22 .sec221 .sec2212 .sec2212a {
+                    width: 100%;
+                    display: grid;
+                    padding: 0;
+                    margin: 0;
+                    grid-template-columns: 15% 85%;
+                    gap: 0px;
+                }
+
+                    .seccion2 .sec22 .sec221 .sec2212 .sec2212a .sec2212a-i {
+                        width: 100%;
+                        height: 100%;
+                    }
+
+                        .seccion2 .sec22 .sec221 .sec2212 .sec2212a .sec2212a-i img {
+                            width: 44px;
+                            height: 44px;
+                            object-fit: contain;
+                        }
+
+                    .seccion2 .sec22 .sec221 .sec2212 .sec2212a .sec2212a-d {
+                        width: 100%;
+                        height: 100%;
+                    }
+
+                        .seccion2 .sec22 .sec221 .sec2212 .sec2212a .sec2212a-d h4 {
+                            font-family: 'Manrope', sans-serif;
+                            font-size: 19px;
+                            color: #454545;
+                        }
+
+                        .seccion2 .sec22 .sec221 .sec2212 .sec2212a .sec2212a-d p {
+                            font-family: 'Manrope', sans-serif;
+                            font-size: 16px;
+                            color: #7B7D7D;
+                        }
+
+                .seccion2 .sec22 .sec221 .sec2212 .sec2212b {
+                    width: 100%;
+                    display: grid;
+                    padding: 0;
+                    margin: 0;
+                    grid-template-columns: 15% 85%;
+                    gap: 0px;
+                }
+
+                    .seccion2 .sec22 .sec221 .sec2212 .sec2212b .sec2212b-i {
+                        width: 100%;
+                        height: 100%;
+                    }
+
+                        .seccion2 .sec22 .sec221 .sec2212 .sec2212b .sec2212b-i img {
+                            width: 44px;
+                            height: 44px;
+                            object-fit: contain;
+                        }
+
+                    .seccion2 .sec22 .sec221 .sec2212 .sec2212b .sec2212b-d {
+                        width: 100%;
+                        height: 100%;
+                    }
+
+                        .seccion2 .sec22 .sec221 .sec2212 .sec2212b .sec2212b-d h4 {
+                            font-family: 'Manrope', sans-serif;
+                            font-size: 19px;
+                            color: #454545;
+                        }
+
+                        .seccion2 .sec22 .sec221 .sec2212 .sec2212b .sec2212b-d p {
+                            font-family: 'Manrope', sans-serif;
+                            font-size: 16px;
+                            color: #7B7D7D;
+                        }
+
+            .seccion2 .sec22 .sec221 .sec2213 {
+                width: 80%;
+                height: 37%;
+                display: grid;
+                grid-template-rows: 50% 50%;
+                gap: 12px;
+            }
+
+                .seccion2 .sec22 .sec221 .sec2213 .sec2213a {
+                    width: 100%;
+                    display: grid;
+                    padding: 0;
+                    margin: 0;
+                    grid-template-columns: 15% 85%;
+                    gap: 0px;
+                }
+
+                    .seccion2 .sec22 .sec221 .sec2213 .sec2213a .sec2213a-i {
+                        width: 100%;
+                        height: 100%;
+                    }
+
+                        .seccion2 .sec22 .sec221 .sec2213 .sec2213a .sec2213a-i img {
+                            width: 44px;
+                            height: 44px;
+                            object-fit: contain;
+                        }
+
+                    .seccion2 .sec22 .sec221 .sec2213 .sec2213a .sec2213a-d {
+                        width: 100%;
+                        height: 100%;
+                    }
+
+                        .seccion2 .sec22 .sec221 .sec2213 .sec2213a .sec2213a-d h4 {
+                            font-family: 'Manrope', sans-serif;
+                            font-size: 19px;
+                            color: #454545;
+                        }
+
+                        .seccion2 .sec22 .sec221 .sec2213 .sec2213a .sec2213a-d p {
+                            font-family: 'Manrope', sans-serif;
+                            font-size: 16px;
+                            color: #7B7D7D;
+                        }
+
+                .seccion2 .sec22 .sec221 .sec2213 .sec2213b {
+                    width: 100%;
+                    display: grid;
+                    padding: 0;
+                    margin: 0;
+                    grid-template-columns: 15% 85%;
+                    gap: 0px;
+                }
+
+                    .seccion2 .sec22 .sec221 .sec2213 .sec2213b .sec2213b-i {
+                        width: 100%;
+                        height: 100%;
+                    }
+
+                        .seccion2 .sec22 .sec221 .sec2213 .sec2213b .sec2213b-i img {
+                            width: 44px;
+                            height: 44px;
+                            object-fit: contain;
+                        }
+
+                    .seccion2 .sec22 .sec221 .sec2213 .sec2213b .sec2213b-d {
+                        width: 100%;
+                        height: 100%;
+                    }
+
+                        .seccion2 .sec22 .sec221 .sec2213 .sec2213b .sec2213b-d h4 {
+                            font-family: 'Manrope', sans-serif;
+                            font-size: 19px;
+                            color: #454545;
+                        }
+
+                        .seccion2 .sec22 .sec221 .sec2213 .sec2213b .sec2213b-d p {
+                            font-family: 'Manrope', sans-serif;
+                            font-size: 16px;
+                            color: #7B7D7D;
+                        }
+
+        .seccion2 .sec22 .sec222 {
+            width: 100%;
+            height: 800px;
+            padding: 0;
+            margin: 0;
+        }
+
+            .seccion2 .sec22 .sec222 img {
+                width: 100%;
+                height: 800px;
+                object-fit: contain;
+            }
+
+    .seccion2 .sec23 {
+        width: 100%;
+        height: 800px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .borde-tarjeta {
+        padding: 1.5em .5em .5em;
+        box-shadow: 0 5px 10px rgba(0,0,0,.2);        
+    }
+
+    .titulo-tarjeta {
+        font-family: 'DM Serif Display', sans-serif;
+        font-size: 20px;
+        color: #7B7D7D;        
+    }
+
+    .parrafo-tarjeta {
+        font-family: 'Manrope', sans-serif;
+        font-size: 16px;
+        color: #7B7D7D;         
+    }
+
+    .titulo-seccion {
+        font-family: 'DM Serif Display', serif;
+        font-size: 32px;
+        color: #454545;
+    }
+
+    .parrafo-seccion {
+        font-family: 'Manrope', sans-serif;
+        font-size: 20px;
+        color: #7B7D7D; 
+    }
+
+    .parrafo-footer {
+        font-family: 'Manrope', sans-serif;
+        font-size: 14px; 
+        color: #454545;        
+    }
+
+    .titulo-footer {
+        font-family: 'Manrope', sans-serif;
+        font-size: 20px; 
+        color: #7B7D7D;          
+    }

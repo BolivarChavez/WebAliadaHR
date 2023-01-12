@@ -1,0 +1,15 @@
+﻿@media only screen and (max-width: 1440px) {
+    .pie-pagina {
+        grid-template-columns: 5% 90% 5%;
+    }
+ }
+
+@media only screen and (max-width: 768px) {
+    .pie-pagina {
+        grid-template-columns: 2% 96% 2%;
+    }
+
+    .pie-pagina .pie2 {
+        border-top: 2px solid #869CFF;
+    }
+}

@@ -1,0 +1,32 @@
+﻿.seccion4 {
+    display: grid;
+    grid-template-columns: 16% 68% 16%;
+    gap: 0px;
+    height: 340px;
+    padding: 0;
+    margin: 0;
+}
+
+    .seccion4 .sec41 {
+        width: 100%;
+        height: 340px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .seccion4 .sec42 {
+        width: 100%;
+        height: 340px;
+        padding: 0;
+        margin: 0;
+        background-color: #EBF5FB;
+        border-radius: 15px;
+        position: relative;
+    }
+
+    .seccion4 .sec43 {
+        width: 100%;
+        height: 340px;
+        padding: 0;
+        margin: 0;
+    }

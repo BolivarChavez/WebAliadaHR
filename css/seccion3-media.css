@@ -1,0 +1,43 @@
+﻿@media only screen and (max-width: 1440px) {
+    .seccion3 {
+        grid-template-columns: 5% 90% 5%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .seccion3 .sec32 .sec321 {
+        display: none;
+    }
+
+    .seccion3 .sec32 .sec322 {
+        grid-template-columns: 0.1% 99.9%;
+        gap: 0px;
+    }
+ }
+
+@media only screen and (max-width: 768px) {
+    .seccion3 {
+        grid-template-columns: 0.5% 99% 0.5%;
+        height: 540px;
+    }
+
+        .seccion3 .sec31 {
+            height: 540px;
+        }
+
+        .seccion3 .sec32 {
+            height: 540px;
+        }
+
+            .seccion3 .sec32 .sec321 {
+                height: 120px;
+            }
+
+            .seccion3 .sec32 .sec322 {
+                height: 420px;
+            }
+
+        .seccion3 .sec33 {
+            height: 540px;
+        }
+}
